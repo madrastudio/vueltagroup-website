@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <title>Vuelta Group S.A.</title>
+    <link rel="icon" type="image/png" href="images/vuelta_favicon.png">
+
+     
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/full-slider.css" rel="stylesheet">
+    <link href="css/vueltagroup.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/set2.css">
+    <link rel="stylesheet" href="css/imagehover.min.css">
+
+  </head>
+
+
+  <body>
+
+  <!-- BARRA DE NAVEGACION -->
+    <nav class="navbar navbar-default navbar-fixed-top" style=" box-shadow: 0px 2px 20px black;">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" style="padding-top:10px;" href="#top">
+            <img height="40px" width="auto" src="images/svg/logo_vueltagroup.svg">
+          </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+          	<li><a style="font-size: 16px; padding-right: 18px;" href="#top">HOME</a></li>
+            <li class="dropdown">
+              <a style="font-size: 16px;" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">DIVISIONES <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="real_estate.html">DESARROLLOS INMOBILIARIOS</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="dg_a_t.html">DISEÑO GRÁFICO | AUDIOVISUALES | TURISMO</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="pagos.html">PAGOS | CLIENTES</a></li>
+              </ul>
+            </li>
+            <li><a style="font-size: 16px; padding-right: 18px;" href="#direccion">DIRECTORIO</a></li>
+            <li><a style="font-size: 16px; padding-right: 18px;" href="#contacto">CONTACTO</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <!-- +++++++++++++++ LANDING +++++++++++++++ -->
+
+    <div class="container-fluid" style="height: 100vh;" id="top">
+      <div class="row">
+        <!-- +++++++++++ VISIBLE PC ++++++++ -->
+        <div class="col-md-2 hidden-sm hidden-xs imghvr-slide-left" style="background-image: url(images/landing/s_integrales.jpg); height: 100vh; background-size: cover;">
+        	<div style="position: absolute; z-index: 10; width: 100%; height: 140px; bottom: 0px; text-align: center; left: 50%; transform: translate(-50%); color: white; text-shadow: 2px 2px 4px #000000; background-color: rgba(120, 40, 52, 0.8); padding-bottom: 20px;">
+            	<h3 style="line-height: 0.5;">Diseño Gráfico</h3>
+            	<h3 style="line-height: 0.5;">Audiovisuales</h3>
+            	<h3 style="line-height: 0.5;">Turismo</h3>
+          	</div>
+          <figcaption style="background-color: rgba(120, 40, 52, 0.8);"></figcaption>
+          <a style="position: absolute; z-index: 100;" href="dg_a_t.html"></a>
+        </div>
+        <div class="col-md-8 hidden-sm hidden-xs imghvr-slide-up" style="background-image: url(images/landing/real_estate.jpg); height: 100vh; background-size: cover; border-left-style: solid; border-right-style: solid; border-left-color: white; border-right-color: white;">
+          <div style="position: absolute; z-index: 10; left: 50%; top: 90px; transform: translate(-50%);">
+            <img height="100px" src="images/svg/logo_vuelta_white.svg">
+          </div>
+          <div style="position: absolute; z-index: 10; width: 80%; top: 200px; text-align: center; left: 50%; transform: translate(-50%); color: white; text-shadow: 2px 2px 4px #000000;">
+            <h3>Brindamos soluciones integrales a sus necesidades a través de un solo interlocutor con los más altos estándares de calidad, ética y profesionalismo del mercado</h3>
+          </div>
+          <div class="degradado_vuelta"></div>
+          <div style="position: absolute; z-index: 10; width: 100%; height: 140px; bottom: 0px; text-align: center; left: 50%; transform: translate(-50%); color: white; text-shadow: 2px 2px 4px #000000; background-color: rgba(120, 40, 52, 0.8); padding-bottom: 20px;">
+            <h1>Desarrollos Inmobiliarios</h1>
+          </div>
+          <figcaption style="background-color: rgba(120, 40, 52, 0.8);"></figcaption>
+          <a style="position: absolute; z-index: 100;" href="real_estate.html"></a>
+        </div> 
+        <div class="col-md-2 hidden-sm hidden-xs imghvr-slide-right" style="background-image: url(images/landing/finanzas.jpg); height: 100vh; background-size: cover;">
+        	<div style="position: absolute; z-index: 10; width: 100%; height: 140px; bottom: 0px; text-align: center; left: 50%; transform: translate(-50%); color: white; text-shadow: 2px 2px 4px #000000; background-color: rgba(120, 40, 52, 0.8); padding-bottom: 20px;">
+            	<h3 style="line-height: 0.5;">Pagos</h3>
+            	<h3 style="line-height: 0.5;">Clientes</h3>
+          	</div>
+          <figcaption style="background-color: rgba(120, 40, 52, 0.8);"></figcaption>
+          <a style="position: absolute; z-index: 100;" href="pagos.html"></a>
+        </div>
+        
+        <!-- ++++++++++++ VISIBLE MOVILES ++++++++++ -->
+        <div class="col-sm-12 hidden-md hidden-lg" style="background-image: url(images/landing/s_integrales_movil.jpg); height: 70vh; background-size: cover;">
+          <div style="position: absolute; z-index: 10; left: 50%; top: 90px; transform: translate(-50%);">
+            <img height="60px" src="images/svg/logo_vuelta_white.svg">
+          </div>
+          <div class="degradado_vuelta"></div>
+          <div class="degradado_negro"></div>
+          <div style="position: absolute; width: 90%; bottom: 10px; text-align: center; left: 50%; transform: translate(-50%); color: white; text-shadow: 2px 2px 4px #000000;">
+            <h4>Brindamos soluciones integrales a sus necesidades a través de un solo interlocutor</h4>
+          </div>
+        </div>
+        <div class="col-sm-12 hidden-md hidden-lg" style="height: 10vh; background-color: #782834; border-top-style: solid; border-top-color: white;">
+          <div style="position: absolute; width: 100%; left: 50%; top: 50%; transform: translate(-50%, -50%); color: white;">
+            <a href="real_estate.html" style="color: white;"><h4 class="text-center">Desarrollos Inmobiliarios</h4></a>
+          </div>
+        </div>
+        <div class="col-sm-12 hidden-md hidden-lg" style="height: 10vh; background-color: #782834; border-top-style: solid; border-top-color: white;">
+          <div style="position: absolute; width: 100%; left: 50%; top: 50%; transform: translate(-50%, -50%); color: white;">
+            <a href="dg_a_t.html" style="color: white;"><h4 class="text-center">Diseño Gráfico | Audiovisuales | Turismo</h4></a>
+          </div>
+        </div>
+        <div class="col-sm-12 hidden-md hidden-lg" style="height: 10vh; background-color: #782834; border-top-style: solid; border-top-color: white;">
+          <div style="position: absolute; width: 100%; left: 50%; top: 50%; transform: translate(-50%, -50%); color: white;">
+            <a href="pagos.html" style="color: white;"><h4 class="text-center">Pagos | Clientes</h4></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="direccion"></div>
+    <!-- +++++++++++ DIRECCION PC ++++++++++ -->
+    <div class="container-fluid hidden-sm hidden-xs" style="background-image: url(images/fondos/direccion.jpg); height: 100vh; background-size: cover;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 col-md-offset-5" style="background-color: white; height: 100vh;">
+            <h2 style="padding-top: 70px; padding-left: 10px; padding-right: 20px; color: #782834;">EQUIPO DE DIRECCIÓN Y ASESORES</h2>
+            <div style="background-color: #782834; height: 1px; width: 100%;"></div>
+            <br>
+            <div class="row" style="padding-left: 20px; padding-right: 5px;">
+
+              <!-- Navigation Buttons -->
+              <div class="col-md-4" style="padding-right: 0px; padding-left: 0px;">
+                <ul class="nav nav-pills nav-stacked" id="myTabs">
+                  <li class="active"><a href="#raul" data-toggle="pill" style="color: black; height: 35px; font-size: 12px;">Lic. Raul González</a></li>
+                  <li><a href="#roberts" data-toggle="pill" style="color: black; height: 35px; font-size: 12px;">Ing. Alan Roberts</a></li>
+                  <li><a href="#madrazo" data-toggle="pill" style="color: black; height: 35px; font-size: 12px;">Arq. Raul Madrazo</a></li>
+                  <li><a href="#frechou" data-toggle="pill" style="color: black; height: 35px; font-size: 12px;">Arq. Mario Frechou</a></li>
+                  <li><a href="#jeidy" data-toggle="pill" style="color: black; height: 35px; font-size: 12px;">Lic. Jeidy Becerra</a></li>
+                  <li><a href="#ernesto" data-toggle="pill" style="color: black; height: 35px; font-size: 12px;">Ernesto González</a></li>
+                  <li><a href="#javier" data-toggle="pill" style="color: black; height: 35px; font-size: 12px;">Javier Madrazo</a></li>
+                  <li><a href="#tonnelier" data-toggle="pill" style="color: black; height: 35px; font-size: 12px;">Dolores Tonnelier</a></li>
+                  <!-- <li><a href="#contable" data-toggle="pill" style="color: black; height: 35px; font-size: 12px;">Estudio Contable</a></li> -->
+                  <h4 style="padding-left: 10px;">Oficinas Regionales</h4>
+                  <li><a href="#juan_carlos" data-toggle="pill" style="color: black; height: 35px; font-size: 12px;">Dr. Juan C. Cochamanidis</a></li>
+                  <!-- <li><a href="#villuendas" data-toggle="pill" style="color: black; height: 35px; font-size: 12px;">Carlos J. Villuendas</a></li> -->
+                </ul>
+              </div>
+
+              <!-- Content -->
+              <div class="col-md-8">
+                <div class="tab-content" style="border-left-style: solid; border-left-color: rgba(120, 40, 52, 0.2); padding-left: 10px;">
+                  <!-- RAUL GONZALEZ -->
+                  <div class="tab-pane fade in active" id="raul">
+                    <p style="font-size: 20px; padding-top: 5px;">Lic. Raúl González Neira</p>
+                    <p style="line-height: 0.5;">Presidente y CEO</p>
+                    <br>
+                    <div style="height: 63vh;">
+                      <div style="height: 100%; overflow-y: scroll;">
+                        <p>Raul González se ha desempeñado como Director Comercial, Gerente General o CEO de diversas compañías del negocio agroindustrial, marítimo, de desarrollos inmobiliarios, hoteleros y energías renovables.</p>
+                        <p>Fundó para Libra Group la compañía First South American Investments (FSA), que tuvo presencia en Argentina, Brasil y Uruguay. el grupo FSA llegó a ser uno de los desarrollistas de capitales privados más importantes de la región, aglutinando a más de una veintena de compañías operando en diferentes sectores del mercado.</p>
+                        <p>Bajo de dirección de Raul González, FSA colaboró y/o co-dessarrolló proyectos con cadenas hoteleras tales como Hyatt, Marriott, Starwood y Grace Hotels. Negoció y lideró la introducción de la mrca Hyatt Place en Brasil. Algunas de las obras emblemáticas lideradas y desarrolladas por FSA bajo la dirección de Raul González:</p>
+                        <ul>
+                          <li>Optima Business Park | 40.000 m<sup>2</sup> de oficinas</li>
+                          <li>Beccar Plaza | 260 departamentos en San Isidro</li>
+                          <li>Forum Puerto Madero | 200 Residencias en Puerto Madero, en asociación con TGLT</li>
+                          <li>Hotel Grace Cafayate | 52 habitaciones en Cafayate, Salta</li>
+                          <li>Espacio Quintana | Oficina en Av. Quintana, Recoleta</li>
+                        </ul>
+                        <p> En el 2014 Raúl González creó Vuelta Group, una compañía multifacética que basa su fortaleza en alianzas estratégicas con los mejores especialistas del mercado regional para brindar servicios completos para desarrollos inmobiliarios y hoteleros con la más alta calidad profesional y ética.</p>
+                        <p>Raúl González ha participado como Orador y ponente en diversos eventos nacionales e internacionales y conferencias de Real Estate y Hotelería.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- ROBERTS -->
+                  <div class="tab-pane fade" id="roberts">
+                    <p style="font-size: 20px; padding-top: 5px;">Ing. Alan R. Roberts</p>
+                    <p style="line-height: 0.5;">Gerenciamiento</p>
+                    <br>
+                    <p>Presidente de Roberts & Asociados, empresa dedicada a brindar servicios de Project y Construction Management, habiendo gerenciado más de cuarenta proyectos en Argentina, Uruguay, Brasil y Paraguay.</p>
+                    <p>En los últimos dos años R&A ha ejecutado exitosamente servicios de Project and Construction Management en proyectos con volumen de inversión superior a $200 MM.</p>
+                    <p>Su experiencia cubre todas las áreas del gerenciamiento de proyectos, como así también un sólido conocimiento del mercado de construcción y soy personalmente responsable por la planificación estratégica de todos los proyectos, al igual que su seguimiento y relación con nuestros clientes.</p>
+                  </div>
+                  <!-- RAUL MADRAZO -->
+                  <div class="tab-pane fade" id="madrazo">
+                    <p style="font-size: 20px; padding-top: 5px;">Arq. Raúl Madrazo Guerra</p>
+                    <p style="line-height: 0.5;">Arquitectura</p>
+                    <br>
+                    <p>Raúl Madrazo Guerra es un arquitecto de amplia experiencia tanto en diseño arquitectónico como ejecución y dirección de proyectos. en su Cuba natal trabajó con el estudio de arquitectura de Quintana, el más prestigioso y premiado del país. Ya como arquitecto independiente diseñó y dirigió obras muy significativas como hospitales, edificios de residencias, etc.</p>
+                    <p>Desde que se estableció en la Argentina, dirigió más de 70.000 m<sup>2</sup> de obra de residencias y hoteles. Además diseñó el hotel Grace Cafayate, el cual recibió el premio de arquitectura al Mejor hotel del año 2014 de los <strong>European Hospitality Awards.</strong></p>                   
+                  </div>
+                  <!-- MARIANO FRECHOU -->
+                  <div class="tab-pane fade" id="frechou">
+                    <p style="font-size: 20px; padding-top: 5px;">Arq. Mariano Frechou</p>
+                    <p style="line-height: 0.5;">Gerenciamiento</p>
+                    <br>
+                    <p>Mariano Frechou es un arquitecto de amplia experiencia como Project Manager. Coordinación de procesos licitatorios, administración de contratos, pagos, control presupuestario, programación y control de plazos y reportes de avance físico. Gran experiencia en comunicación directa con Cliente.</p>
+                  </div>
+                  <!-- JEIDY BECERRA -->
+                  <div class="tab-pane fade" id="jeidy">
+                    <p style="font-size: 20px; padding-top: 5px;">Lic. Jeidy Becerra Rosado</p>
+                    <p style="line-height: 0.5;">Marketing y Relaciones Públicas</p>
+                    <br>
+                    <p>Se graduó de Licenciada en Contabilidad y Finanzas por la Universidad Agraria de La Habana. Trabajó como Contadora de la Sede Universitaria Municipal de Mariel, Cuba. Presidió el comité de Control Interno de dicha universidad y asesoró a estudiantes universitarios en las prácticas pre-profesionales</p>
+                    <p>Posteriormente trabajó en la compañía de producciones audiovisuales <em>Siglo XXI Troqua Visión</em> como Productora y Asistente de Producción en diversas fimaciones tales como la Oncena Bienal de La Habana 2012 para Havana Club Alemania, Producción de Publicidad de Hoteles Cayo Santamaría para la productora francesa Parker-Wayne-Philips, Producción de Video Institucional de la Industria Molinera S.A, la Producción de "Cuba Roja" Serie Documental. entre muchas otras.</p>
+                    <p>Desde la fundación de Vuelta Group se desempeña como Gerente de Marketing y Relaciones Públicas de esa compañía.</p>
+                  </div>
+                  <!-- ERNESTO GONZALEZ -->
+                  <div class="tab-pane fade" id="ernesto">
+                    <p style="font-size: 20px; padding-top: 5px;">Ernesto González López</p>
+                    <p style="line-height: 0.5;">Producciones Audiovisuales</p>
+                    <br>
+                    <p>Nació en Cuba y vive en Argentina desde muy temprana edad.  Actualmente se encuentra realizando estudios de Dirección de Cine en el Centro de Investigación Cinematográfica (CIC).</p> 
+                    <p>Durante años trabajó en productoras musicales hasta que en 2011 creó junto a Jorge Castro, Never Broke Entertainment; una empresa dedicada especialmente al diseño audiovisual orientado al mercado del entretenimiento y artistas de la música.</p>
+                    <p>Gracias a su visión fresca e innovadora para encarar videos musicales de Pop, Rap, Reggaeton o cumbia para la industria local y para artistas extranjeros, lograron un gran crecimiento en poco tiempo.</p>
+                  </div>
+                  <!-- JAVIER MADRAZO -->
+                  <div class="tab-pane fade" id="javier">
+                    <p style="font-size: 20px; padding-top: 5px;">Javier Madrazo</p>
+                    <p style="line-height: 0.5;">Diseño Gráfico y Publicidad</p>
+                    <br>
+                    <p>Nació en Cuba y en 1995 se recibió en el Instituto Politécnico para el Diseño Industrial en la Habana. En 2007 llegó a Argentina para desarrollar el área de diseño en una importante desarrolladora inmobiliaria. Desde entonces, y ya en Buenos Aires, perfeccionó sus conocimientos en otras áreas realizando cursos avanzados de visualización arquitectónica (Imagecampus) y un Postgrado en Fotografía Arquitectónica en la Universidad de Palermo. Además creó su propia firma Madra Studio, lugar desde el cual aplicó todos sus conocimientos de diseño.</p>
+                    <p>En Cuba tuvo a su cargo el sector de diseño gráfico de una agencia de diseño enfocada en el sector turístico y posteriormente en otra especializada en el sector bancario.  Fue también representante comercial de una empresa argentina y obtuvo diversos premios y reconocimientos, como el 1º premio de diseño de stand en la Feria Internacional de Turismo de La Habana.</p>
+                  </div>
+                  <!-- DOLORES TONNELIER -->
+                  <div class="tab-pane fade" id="tonnelier">
+                    <p style="font-size: 20px; padding-top: 5px;">Dolores Tonnelier</p>
+                    <p style="line-height: 0.5;">Asistente Ejecutiva</p>
+                    <br>
+                    <p>Dolores Tonnelier realizó estudios de Media Coaching, Ingles Comercial, Mecanografía, Taquigrafía, Traducción Técnica, Científica y Literaria.</p>
+                    <p>Desde 1994 a 1998 trabajó en el área de Parques y entretenimiento como Asistente e intérprete del Director Operativo de Disney Animation Festival y Parque de la Costa. Desde el Planeamiento, confección de Manuales Operativos hasta la apertura y Operación de los Parques. Y consultora para Viacom Group / Paramount Parks.</p>
+                    <p>En 1998 hasta 2000 Trabajó en el sector de entretenimiento en Ogden Rural predio ferial, Asistente del Gerente de Alimentos y Bebidas. Trabajamos en la planificación, construcción y operación del sector Gastronómico del Predio.</p>
+                    <p>Posteriormente en 2005 y hasta el 2015 trabajó en First South American Investment como Asistente Personal del CEO.</p>
+                  </div>
+                  <!-- ESTUDIO CONTABLE -->
+                  <!-- <div class="tab-pane fade" id="contable">
+                    <p style="font-size: 20px; padding-top: 5px;">Estudio Contable</p>
+                    <p style="line-height: 0.5;"></p>
+                    <br>
+                    <p></p>
+                  </div> -->
+                  <!-- JUAN CARLOS COCHAMANIDIS -->
+                  <div class="tab-pane fade" id="juan_carlos">
+                    <p style="font-size: 20px; padding-top: 5px;">Dr. Juan Carlos Cochamanidis</p>
+                    <p style="line-height: 0.5;">Gerente Oficina Santa Cruz de La Sierra, Bolivia.</p>
+                    <br>
+                    <p>Juan Carlos Cochamanidis es abogado graduado de la Universidad Complutense de Madrid. Ha tenidoa su cargo la gerencia de varios emprendimientos entre ellos un canal de televisión y una compañía de explotación maderera. Fue además Cónsul General de Grecia en Santa Cruz de la Sierra y director de la cadena televisiva Red Uno de Bolivia.</p>
+                  </div>
+                  <!-- CARLOS VILLUENDAS -->
+                  <!-- <div class="tab-pane fade" id="villuendas">
+                    <p style="font-size: 20px; padding-top: 5px;">Carlos J. Villuendas</p>
+                    <p style="line-height: 0.5;"></p>
+                    <br>
+                    <p></p>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>  
+    </div> 
+
+    <!-- +++++++++++ DIRECCION TABLETS Y MOVILES ++++++++++ -->
+    <div class="container-fluid hidden-md hidden-lg" style="background-image: url(images/fondos/direccion.jpg); background-size: cover;">
+      <div class="container">
+        <div style="background-color: rgba(120, 40, 52, 0.7)">
+          <h3 style="padding-top: 60px; padding-bottom: 10px; padding-left: 10px; padding-right: 20px; color: white;">EQUIPO DE DIRECCIÓN Y ASESORES</h3>
+        </div>
+        
+        <!-- RAUL -->
+        <div class="well well-sm"">
+          <a data-toggle="modal" data-target="#raul_modal">
+            <p style="color: black; font"><strong>Lic. Raúl González Neira</strong></p>
+            <p style="color: #782834; line-height: 0.2;">Presidente y CEO</p>
+          </a>
+        </div>
+        <!-- RAUL MODAL -->
+        <div class="modal fade" id="raul_modal" tabindex="-1" role="dialog" aria-labelledby="raul_modal_label">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="raul_modal_label">Lic. Raúl González Neira</h4>
+              </div>
+              <div class="modal-body">
+                <p>Raul González se ha desempeñado como Director Comercial, Gerente General o CEO de diversas compañías del negocio agroindustrial, marítimo, de desarrollos inmobiliarios, hoteleros y energías renovables.</p>
+                <p>Fundó para Libra Group la compañía First South American Investments (FSA), que tuvo presencia en Argentina, Brasil y Uruguay. el grupo FSA llegó a ser uno de los desarrollistas de capitales privados más importantes de la región, aglutinando a más de una veintena de compañías operando en diferentes sectores del mercado.</p>
+                <p>Bajo de dirección de Raul González, FSA colaboró y/o co-dessarrolló proyectos con cadenas hoteleras tales como Hyatt, Marriott, Starwood y Grace Hotels. Negoció y lideró la introducción de la mrca Hyatt Place en Brasil. Algunas de las obras emblemáticas lideradas y desarrolladas por FSA bajo la dirección de Raul González:</p>
+                <ul>
+                  <li>Optima Business Park | 40.000 m<sup>2</sup> de oficinas</li>
+                  <li>Beccar Plaza | 260 departamentos en San Isidro</li>
+                  <li>Forum Puerto Madero | 200 Residencias en Puerto Madero, en asociación con TGLT</li>
+                  <li>Hotel Grace Cafayate | 52 habitaciones en Cafayate, Salta</li>
+                  <li>Espacio Quintana | Oficina en Av. Quintana, Recoleta</li>
+                </ul>
+                <p> En el 2014 Raúl González creó Vuelta Group, una compañía multifacética que basa su fortaleza en alianzas estratégicas con los mejores especialistas del mercado regional para brindar servicios completos para desarrollos inmobiliarios y hoteleros con la más alta calidad profesional y ética.</p>
+                <p>Raúl González ha participado como Orador y ponente en diversos eventos nacionales e internacionales y conferencias de Real Estate y Hotelería.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+        <!-- ROBERST -->
+        <div class="well well-sm"">
+          <a data-toggle="modal" data-target="#roberts_modal">
+            <p style="color: black; font"><strong>Ing. Alan R. Roberts</strong></p>
+            <p style="color: #782834; line-height: 0.2;">Gerenciamiento</p>
+          </a>
+        </div>
+        <!-- ROBERTS MODAL -->
+        <div class="modal fade" id="roberts_modal" tabindex="-1" role="dialog" aria-labelledby="roberts_modal_label">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="roberts_modal_label">Ing. Alan R. Roberts</h4>
+              </div>
+              <div class="modal-body">
+                <p>Presidente de Roberts & Asociados, empresa dedicada a brindar servicios de Project y Construction Management, habiendo gerenciado más de cuarenta proyectos en Argentina, Uruguay, Brasil y Paraguay.</p>
+                <p>En los últimos dos años R&A ha ejecutado exitosamente servicios de Project and Construction Management en proyectos con volumen de inversión superior a $200 MM.</p>
+                <p>Su experiencia cubre todas las áreas del gerenciamiento de proyectos, como así también un sólido conocimiento del mercado de construcción y soy personalmente responsable por la planificación estratégica de todos los proyectos, al igual que su seguimiento y relación con nuestros clientes.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- RMADRAZO -->
+        <div class="well well-sm"">
+          <a data-toggle="modal" data-target="#rmadrazo_modal">
+            <p style="color: black; font"><strong>Arq. Raúl Madrazo Guerra</strong></p>
+            <p style="color: #782834; line-height: 0.2;">Arquitectura</p>
+          </a>
+        </div>
+        <!-- RMADRAZO MODAL -->
+        <div class="modal fade" id="rmadrazo_modal" tabindex="-1" role="dialog" aria-labelledby="rmadrazo_modal_label">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="rmadrazo_modal_label">Arq. Raúl Madrazo Guerra</h4>
+              </div>
+              <div class="modal-body">
+                <p>Raúl Madrazo Guerra es un arquitecto de amplia experiencia tanto en diseño arquitectónico como ejecución y dirección de proyectos. en su Cuba natal trabajó con el estudio de arquitectura de Quintana, el más prestigioso y premiado del país. Ya como arquitecto independiente diseñó y dirigió obras muy significativas como hospitales, edificios de residencias, etc.</p>
+                <p>Desde que se estableció en la Argentina, dirigió más de 70.000 m2 de obra de residencias y hoteles. Además diseñó el hotel Grace Cafayate, el cual recibió el premio de arquitectura al Mejor hotel del año 2014 de los <strong>European Hospitality Awards.</strong></p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- FRECHOU -->
+        <div class="well well-sm"">
+          <a data-toggle="modal" data-target="#rmadrazo_modal">
+            <p style="color: black; font"><strong>Arq. Mariano Frechou</strong></p>
+            <p style="color: #782834; line-height: 0.2;">Gerenciamiento</p>
+          </a>
+        </div>
+        <!-- FRECHOU MODAL -->
+        <div class="modal fade" id="rmadrazo_modal" tabindex="-1" role="dialog" aria-labelledby="rmadrazo_modal_label">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="rmadrazo_modal_label">Arq. Mariano Frechou</h4>
+              </div>
+              <div class="modal-body">
+                <p>Mariano Frechou es un arquitecto de amplia experiencia como Project Manager. Coordinación de procesos licitatorios, administración de contratos, pagos, control presupuestario, programación y control de plazos y reportes de avance físico. Gran experiencia en comunicación directa con Cliente.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- JEIDY -->
+        <div class="well well-sm"">
+          <a data-toggle="modal" data-target="#jeidy_modal">
+            <p style="color: black; font"><strong>Lic. Jeidy Becerra Rosado</strong></p>
+            <p style="color: #782834; line-height: 0.2;">Gerenciamiento</p>
+          </a>
+        </div>
+        <!-- JEIDY MODAL -->
+        <div class="modal fade" id="jeidy_modal" tabindex="-1" role="dialog" aria-labelledby="jeidy_modal_label">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="jeidy_modal_label">Lic. Jeidy Becerra Rosado</h4>
+              </div>
+              <div class="modal-body">
+                <p>Se graduó de Licenciada en Contabilidad y Finanzas por la Universidad Agraria de La Habana. Trabajó como Contadora de la Sede Universitaria Municipal de Mariel, Cuba. Presidió el comité de Control Interno de dicha universidad y asesoró a estudiantes universitarios en las prácticas pre-profesionales.</p>
+                <p>Posteriormente trabajó en la compañía de producciones audiovisuales Siglo XXI Troqua Visión como Productora y Asistente de Producción en diversas fimaciones tales como la Oncena Bienal de La Habana 2012 para Havana Club Alemania, Producción de Publicidad de Hoteles Cayo Santamaría para la productora francesa Parker-Wayne-Philips, Producción de Video Institucional de la Industria Molinera S.A, la Producción de "Cuba Roja" Serie Documental. entre muchas otras.</p>
+                <p>Desde la fundación de Vuelta Group se desempeña como Gerente de Marketing y Relaciones Públicas de esa compañía.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ERNESTO -->
+        <div class="well well-sm"">
+          <a data-toggle="modal" data-target="#ernesto_modal">
+            <p style="color: black; font"><strong>Ernesto González López</strong></p>
+            <p style="color: #782834; line-height: 0.2;">Producciones Audiovisuales</p>
+          </a>
+        </div>
+        <!-- ERNESTO MODAL -->
+        <div class="modal fade" id="ernesto_modal" tabindex="-1" role="dialog" aria-labelledby="ernesto_modal_label">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="ernesto_modal_label">Ernesto González López</h4>
+              </div>
+              <div class="modal-body">
+                <p>Nació en Cuba y vive en Argentina desde muy temprana edad. Actualmente se encuentra realizando estudios de Dirección de Cine en el Centro de Investigación Cinematográfica (CIC).</p>
+                <p>Durante años trabajó en productoras musicales hasta que en 2011 creó junto a Jorge Castro, Never Broke Entertainment; una empresa dedicada especialmente al diseño audiovisual orientado al mercado del entretenimiento y artistas de la música.</p>
+                <p>Gracias a su visión fresca e innovadora para encarar videos musicales de Pop, Rap, Reggaeton o cumbia para la industria local y para artistas extranjeros, lograron un gran crecimiento en poco tiempo.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- JAVIER -->
+        <div class="well well-sm"">
+          <a data-toggle="modal" data-target="#javier_modal">
+            <p style="color: black; font"><strong>Javier Madrazo</strong></p>
+            <p style="color: #782834; line-height: 0.2;">Diseño Gráfico y Publicidad</p>
+          </a>
+        </div>
+        <!-- JAVIER MODAL -->
+        <div class="modal fade" id="javier_modal" tabindex="-1" role="dialog" aria-labelledby="javier_modal_label">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="javier_modal_label">Javier Madrazo</h4>
+              </div>
+              <div class="modal-body">
+                <p>Nació en Cuba y en 1995 se recibió en el Instituto Politécnico para el Diseño Industrial en la Habana. En 2007 llegó a Argentina para desarrollar el área de diseño en una importante desarrolladora inmobiliaria. Desde entonces, y ya en Buenos Aires, perfeccionó sus conocimientos en otras áreas realizando cursos avanzados de visualización arquitectónica (Imagecampus) y un Postgrado en Fotografía Arquitectónica en la Universidad de Palermo. Además creó su propia firma Madra Studio, lugar desde el cual aplicó todos sus conocimientos de diseño.</p>
+                <p>En Cuba tuvo a su cargo el sector de diseño gráfico de una agencia de diseño enfocada en el sector turístico y posteriormente en otra especializada en el sector bancario. Fue también representante comercial de una empresa argentina y obtuvo diversos premios y reconocimientos, como el 1º premio de diseño de stand en la Feria Internacional de Turismo de La Habana.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- LOLA -->
+        <div class="well well-sm"">
+          <a data-toggle="modal" data-target="#lola_modal">
+            <p style="color: black; font"><strong>Dolores Tonnelier</strong></p>
+            <p style="color: #782834; line-height: 0.2;">Asistente Ejecutiva</p>
+          </a>
+        </div>
+        <!-- LOLA MODAL -->
+        <div class="modal fade" id="lola_modal" tabindex="-1" role="dialog" aria-labelledby="lola_modal_label">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="lola_modal_label">Dolores Tonnelier</h4>
+              </div>
+              <div class="modal-body">
+                <p>Dolores Tonnelier realizó estudios de Media Coaching, Ingles Comercial, Mecanografía, Taquigrafía, Traducción Técnica, Científica y Literaria.</p>
+                <p>Desde 1994 a 1998 trabajó en el área de Parques y entretenimiento como Asistente e intérprete del Director Operativo de Disney Animation Festival y Parque de la Costa. Desde el Planeamiento, confección de Manuales Operativos hasta la apertura y Operación de los Parques. Y consultora para Viacom Group / Paramount Parks.</p>
+                <p>En 1998 hasta 2000 Trabajó en el sector de entretenimiento en Ogden Rural predio ferial, Asistente del Gerente de Alimentos y Bebidas. Trabajamos en la planificación, construcción y operación del sector Gastronómico del Predio.</p>
+                <p>Posteriormente en 2005 y hasta el 2015 trabajó en First South American Investment como Asistente Personal del CEO.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div style="background-color: rgba(120, 40, 52, 0.7)">
+          <h3 style="padding-top: 10px; padding-bottom: 10px; padding-left: 5px; color: white;">Oficinas Regionales</h3>
+        </div>
+
+        <!-- JUAN CARLOS -->
+        <div class="well well-sm"">
+          <a data-toggle="modal" data-target="#juancarlos_modal">
+            <p style="color: black; font"><strong>Dr. Juan Carlos Cochamanidis</strong></p>
+            <p style="color: #782834;">Gerente Oficina Santa Cruz de La Sierra, Bolivia.</p>
+          </a>
+        </div>
+        <!-- JUAN CARLOS MODAL -->
+        <div class="modal fade" id="juancarlos_modal" tabindex="-1" role="dialog" aria-labelledby="juancarlos_modal_lablel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="juancarlos_modal_lablel">Dr. Juan Carlos Cochamanidis</h4>
+              </div>
+              <div class="modal-body">
+                <p>Juan Carlos Cochamanidis es abogado graduado de la Universidad Complutense de Madrid. Ha tenidoa su cargo la gerencia de varios emprendimientos entre ellos un canal de televisión y una compañía de explotación maderera. Fue además Cónsul General de Grecia en Santa Cruz de la Sierra y director de la cadena televisiva Red Uno de Bolivia.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>      
+    </div>
+
+    <!-- +++++++++++ CONTACTO +++++++++ -->
+    
+    <div class="container-fluid" style="position: relative; height: 100vh;" id="contacto">
+      <div class="row">
+        <div class="col-xs-12">
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="3000" data-pause="false" style="height: 55vh; margin-left: -15px; margin-right: -15px; box-shadow: 0px 2px 20px black;">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active" style="background-image:url(images/contacto/buenos_aires.jpg); background-size: cover; background-position: center;">
+                <div class="carousel-caption">
+                  Buenos Aires, Aregntina.
+                </div>
+              </div>
+              <div class="item" style="background-image:url(images/contacto/santa_crus_sierra.jpg); background-size: cover; background-position: center;">
+                <div class="carousel-caption">
+                  Santa Cruz de la Sierra, Bolivia.
+                </div>
+              </div>
+              <div class="item" style="background-image:url(images/contacto/panama.jpg); background-size: cover; background-position: center;">
+                <div class="carousel-caption">
+                  Ciudad de Panamá, Panamá.
+                </div>
+              </div>
+              <div class="item" style="background-image:url(images/contacto/la_habana.jpg); background-size: cover; background-position: center;">
+                <div class="carousel-caption">
+                  La Habana, Cuba.
+                </div>
+              </div>
+            </div>
+          </div>          
+        </div>
+      </div>
+      
+      <div class="container" style="margin-top: 50px;">  
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <address>
+              <strong>Buenos Aires, Argentina</strong><br>
+              <strong style="color: #782834;">Vuelta Group S.A.</strong><br>
+              <div style="background-color: #782834; height: 1px; width: 98%;"></div>
+              Cap. Gral. Ramón Freire 1633 Piso 3<br>
+              C1426AWG, CABA, Buenos Aires, Argentina.<br>
+              <abbr title="Teléfono">T:</abbr> +54 11 5263 3539<br>
+              <abbr title="Celular">C:</abbr> +54 11 5952 1870<br>
+              <abbr title="Correo Electrónico">CE:</abbr><a href="mailto:raul.gonzalez@vueltagroup.com"> raul.gonzalez@vueltagroup.com</a><br>
+              Skype: ragon90
+            </address>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <address>
+              <strong>Santa Cruz de La Sierra, Bolivia</strong><br>
+              <strong style="color: #782834;">Vuelta Desarrollos e Inversiones S.A.</strong><br>
+              <div style="background-color: #782834; height: 1px; width: 98%;"></div>
+              Calle Las Begonias Nº 43<br>
+              Equipetrol, Santa Cruz de La Sierra,<br>
+              Bolivia.<br>
+              <abbr title="Teléfono">T:</abbr> +591 3 345 4510<br>
+              <abbr title="Fax">F:</abbr> +591 3 341 8041<br>
+              <abbr title="Celular">C:</abbr> +591 7739 5463<br>
+              <abbr title="Correo Electrónico">CE:</abbr><a href="mailto:jc.cochamanidis@vueltagroup.com"> jc.cochamanidis@vueltagroup.com</a><br>
+            </address>
+          </div>                
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <address>
+              <strong>Ciudad de Panamá, Panamá</strong><br>
+              Vuelta Group es representado en Panamá por:<br>
+              <strong style="color: #782834;">Buenavista International Services Corporation</strong><br>
+              <div style="background-color: #782834; height: 1px; width: 98%;"></div>
+              Contacto: Carlos J. Villuendas<br>
+              <abbr title="Celular">C:</abbr> +507 6678 0030<br>
+              <abbr title="Correo Electrónico">CE:</abbr><a href="mailto:carlos.villuendas@vueltagroup.com"> carlos.villuendas@vueltagroup.com</a><br>
+            </address>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <address>
+              <strong>La Habana, Cuba</strong><br>
+              <div style="background-color: #782834; height: 1px; width: 98%;"></div>
+              Contactar a oficina de Buenos Aires para más información.<br>
+            </address>
+          </div>                
+        </div>          
+      </div>
+      <!-- PIE -->
+      <div class="container-fluid" style="height: 55px; background-color: #782834; margin-top: 30px; margin-left: -15px; margin-right: -15px;">
+        <div class="container">
+          <div class="row" style="color: white; padding-top: 5px;">
+            <div class="col-sm-6 hidden-xs">
+              <p class="text-left"><span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span> 2016 | Vuelta Group S.A.<br>Todos los derechos reservados</p>
+            </div>
+            <div class="col-sm-6 hidden-xs">
+              <img style="height: 35px; width: auto; padding-top: 5px; padding-left: 80%;" src="images/svg/by_MS_white.svg">
+            </div>
+            <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
+              <p class="text-center" style="font-size: 11px; padding-top: 7px;"><span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span> 2016 | Vuelta Group S.A. | Derechos reservados<br>web design MADRA Studio</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>  
+    
+
+      
+    
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"> </script>
+    
+
+    
+    <!-- autoclouse collapse navbar in mobiles -->
+    <script type="text/javascript">
+    $(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a') ) {
+        $(this).collapse('hide');
+    }
+    });
+    </script>
+
+    <!-- slow scroll -->
+    <script type='text/javascript'>
+    $(window).load(function(){
+    
+    $("a[href^='#']").on('click', function(e) {
+       e.preventDefault();
+       var hash = this.hash;
+       $('html, body').animate({
+           scrollTop: $(this.hash).offset().top - 0
+         }, 800, function(){
+             window.location.hash = hash;
+         });
+    });
+    }); 
+    </script>
+
+    
+  </body>
+</html>

@@ -1,0 +1,37 @@
+.degradado_negro {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 52, 1)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); /* Standard syntax (must be last) */
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    bottom: 0px;
+    margin-left:-15px;
+}
+
+.degradado_vuelta {
+    background: -webkit-linear-gradient(rgba(120, 40, 52, 1), rgba(120, 40, 52, 0)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(120, 40, 52, 1), rgba(120, 40, 52, 0)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(120, 40, 52, 1), rgba(120, 40, 52, 0)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(120, 40, 52, 1), rgba(120, 40, 52, 0)); /* Standard syntax (must be last) */
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    top: 59px;
+    margin-left:-15px;
+}
+
+/* +++++++ CUSTOM NAV PILLS ++++++++ */
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus {
+    color: black;
+    background-color: rgba(120, 40, 52, 0.2);
+}
+
+.nav-pills > li.active > a:hover {
+    background-color:rgba(120, 40, 52, 0.5);
+    color:black;
+}
+
+
