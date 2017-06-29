@@ -53,12 +53,39 @@
 
     <div class="container-fluid" style="height: 100vh; width: 100%; background-image: url(images/fondos/pagos.jpg); background-size: cover;">
       <div class="container" style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width:100%;">
-        <h2 style="text-align: center; color: white;">PÁGINA EN CONSTRUCCIÓN</h2>
-        <h2 style="text-align: center; color: white;">Próximamente en funcionamiento</h2>
+        <h2 style="text-align: center; color: white;">Zona de clientes</h2>
+        <p style="text-align: center; color: white;">La división de negocios financieros de Vuelta Group procesa pagos para importantes compañías internacionales de manera confiable y eficiente.</p>
+        <form style="position: absolute; left: 50%; top: 100%; transform: translate(-50%, 0);">
+            <div class="form-group">
+                <label for="cliente" style="color: white;">Cliente</label>
+                <input type="text" class="form-control" id="cliente" style="width: 200px">
+            </div>
+            <div class="form-group">
+                <label for="pass" style="color: white;">Contraseña</label>
+                <input type="password" class="form-control" id="pass" style="width: 200px">
+            </div>
+            <button type="button" class="btn btn-default" data-toggle="modal" data-target="#entrar">Entrar</button>
+        </form>
       </div>
     </div>
     
-    
+    <!-- MODAL -->
+    <div class="modal fade" id="entrar" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">MENSAJE</h4>
+        </div>
+        <div class="modal-body">
+            <p>Cliente y/o contraseña incorrectos</p>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+        </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"> </script>
